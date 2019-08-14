@@ -68,17 +68,17 @@ vi 에디터로 아래와 같이 수정. 뭐 이파일 수정하지말라고 하
 
 ```
 
-{% highlight properties %}
+```properties
 jira.home = /usr/local/jira-5.2.10
 
-````
+```
 
 그리고 build 해준다.
 오류 없이 잘끝나면 성공!
 
 ```bash
 ./build.sh
-````
+```
 
 이제 톰캣에 이놈을 붙여주어야 한다.
 그러기전에 아래처럼 환경설정 파일을 하나 만들어주자. 자바 힙메모리를 늘려준다거나 하는거..
@@ -124,7 +124,7 @@ dist-tomcat/tomcat-6/jira.xml 파일의 내용을 복사해서 넣어줘라!
 요로코롬 Host 어쩌구 시작하는 곳 밑에 넣어준다.
 ...
 
-{% highlight xml %}
+```xml
 <Host name="localhost"  appBase="webapps"
             unpackWARs="true" autoDeploy="true" xmlValidation="false" xmlNamespaceAware="false">
 

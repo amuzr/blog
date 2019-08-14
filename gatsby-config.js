@@ -1,6 +1,7 @@
 const path = require('path');
 
 module.exports = {
+  pathPrefix: '/',
   siteMetadata: {
     title: 'Monthly Code',
     description: 'Coding every month',
