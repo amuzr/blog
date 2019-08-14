@@ -13,7 +13,7 @@
     "lint:fix": "eslint --fix src/**/*/*.tsx",
     "start": "npm run dev",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "deploy": "gatsby build --prefix-paths && gh-pages -d public"
+    "deploy": "gatsby build && cp ./src/CNAME public/ && gh-pages -d public --branch master"
   },
   "dependencies": {
     "@emotion/core": "10.0.14",
