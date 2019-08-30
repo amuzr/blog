@@ -73,6 +73,9 @@ const Header: React.FC<any> = () => {
         <Link css={HeaderLink} to="/about">
           About
         </Link>
+        <Link css={HeaderLink} to="/project">
+          Coding
+        </Link>
       </HeaderNav>
     </header>
   );

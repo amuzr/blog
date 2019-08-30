@@ -9,7 +9,6 @@ import Wrapper from '../components/Wrapper';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import PostCard from '../components/PostCard';
-import Pagination from '../components/Pagination';
 import IndexLayout from '../layouts';
 
 import { PageContext } from './post';
@@ -33,7 +32,7 @@ export interface IndexProps {
   };
 }
 
-const IndexPage: React.FC<IndexProps> = props => {
+const ProjectPage: React.FC<IndexProps> = props => {
   return (
     <IndexLayout className="post-template">
       <Helmet>
@@ -45,7 +44,7 @@ const IndexPage: React.FC<IndexProps> = props => {
         <Header />
         <main css={IndexPageStyle} role="main">
           {props.data.allMarkdownRemark.edges
-            .filter(edge => edge.node.fields.collection === 'content')
+            .filter(edge => edge.node.fields.collection === 'project')
             .map(post => {
               // filter out drafts in production
               return (
@@ -56,20 +55,16 @@ const IndexPage: React.FC<IndexProps> = props => {
             })}
         </main>
         {props.children}
-        <Pagination
-          currentPage={props.pageContext.currentPage}
-          numPages={props.pageContext.numPages}
-        />
         <Footer />
       </Wrapper>
     </IndexLayout>
   );
 };
 
-export default IndexPage;
+export default ProjectPage;
 
 export const pageQuery = graphql`
-  query blogPageQuery($skip: Int!, $limit: Int!) {
+  query projectPageQuery($skip: Int!, $limit: Int!) {
     allMarkdownRemark(
       sort: { fields: [frontmatter___date], order: DESC }
       filter: { frontmatter: { draft: { ne: true } } }

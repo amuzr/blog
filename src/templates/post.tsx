@@ -35,6 +35,7 @@ export interface PageContext {
   timeToRead: number;
   fields: {
     slug: string;
+    collection: string;
   };
   frontmatter: {
     image?: {
