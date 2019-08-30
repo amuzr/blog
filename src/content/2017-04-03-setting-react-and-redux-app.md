@@ -3,6 +3,7 @@ layout: post
 title: 'React와 Redux를 공부하기 위한 앱 세팅'
 date: '2017-04-03 01:07:21 +0900'
 tags: ['front', 'react', 'redux']
+image: img/brandi-redd-aJTiW00qqtI-unsplash.jpg
 draft: false
 ---
 

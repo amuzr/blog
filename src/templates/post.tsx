@@ -1,7 +1,9 @@
-import { graphql, Link } from 'gatsby';
+import { graphql } from 'gatsby';
+import Img from 'gatsby-image';
 import * as React from 'react';
 import { css } from '@emotion/core';
 import { Helmet } from 'react-helmet';
+import styled from '@emotion/styled';
 
 import Wrapper from '../components/Wrapper';
 import Header from '../components/Header';
@@ -11,10 +13,44 @@ import PostFooter from '../components/PostFooter';
 import IndexLayout from '../layouts';
 
 import { ArticleWrapper, PostTitle, PostDate } from '../styles/shared';
+import { colors } from '../styles/colors';
 
 const PostTemplateStyle = css`
   flex: 1 1 auto;
   align-items: center;
+`;
+
+export const NoImage = css`
+  .post-full-content {
+    padding-top: 0;
+  }
+
+  .post-full-content:before,
+  .post-full-content:after {
+    display: none;
+  }
+`;
+
+const PostFullImage = styled.figure`
+  margin: 0 -10vw -165px;
+  height: 800px;
+  background: ${colors.lightgrey} center center;
+  background-size: cover;
+  border-radius: 5px;
+
+  @media (max-width: 1170px) {
+    margin: 0 -4vw -100px;
+    height: 600px;
+    border-radius: 0;
+  }
+
+  @media (max-width: 800px) {
+    height: 400px;
+  }
+  @media (max-width: 500px) {
+    margin-bottom: 4vw;
+    height: 350px;
+  }
 `;
 
 interface PostTemplateProps {
@@ -22,7 +58,23 @@ interface PostTemplateProps {
     slug: string;
   };
   data: {
-    markdownRemark: any;
+    markdownRemark: {
+      html: string;
+      htmlAst: any;
+      excerpt: string;
+      timeToRead: string;
+      frontmatter: {
+        title: string;
+        date: string;
+        userDate: string;
+        image?: {
+          childImageSharp: {
+            fluid: any;
+          };
+        };
+        tags: string[];
+      };
+    };
   };
   pageContext: {
     prev: PageContext;
@@ -79,6 +131,14 @@ const PostTemplate: React.FC<PostTemplateProps> = props => {
               <PostTitle>{post.frontmatter.title}</PostTitle>
               <PostDate dateTime={post.frontmatter.date}>{post.frontmatter.userDate}</PostDate>
             </header>
+            {post.frontmatter.image && post.frontmatter.image.childImageSharp && (
+              <PostFullImage>
+                <Img
+                  style={{ height: '100%' }}
+                  fluid={post.frontmatter.image.childImageSharp.fluid}
+                />
+              </PostFullImage>
+            )}
             <PostContent htmlAst={post.htmlAst} />
           </ArticleWrapper>
           <PostFooter prev={props.pageContext.prev} next={props.pageContext.next} />
@@ -103,6 +163,13 @@ export const query = graphql`
         userDate: date(formatString: "YYYY MMMM D")
         date
         tags
+        image {
+          childImageSharp {
+            fluid(maxWidth: 3720) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
       }
     }
   }

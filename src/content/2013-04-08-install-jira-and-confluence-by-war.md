@@ -3,6 +3,7 @@ layout: post
 title: 'JIRA 와 Confluence war로 설치하기'
 date: '2013-04-08 11:17:54 +0900'
 tags: ['tools', 'jira', 'confluence', 'wiki', 'war']
+image: img/brandi-redd-aJTiW00qqtI-unsplash.jpg
 draft: false
 ---
 

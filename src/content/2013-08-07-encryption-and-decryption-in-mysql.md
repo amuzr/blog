@@ -3,6 +3,7 @@ layout: post
 title: 'MySql 에서 암호화 복호화 참고'
 date: '2013-08-07 11:02:09 +0900'
 tags: ['mysql', 'encryption', 'decryption']
+image: img/brandi-redd-aJTiW00qqtI-unsplash.jpg
 draft: false
 ---
 

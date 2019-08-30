@@ -3,6 +3,7 @@ layout: post
 title: 'TABLE 에서 일부 셀만 고정시키기'
 date: '2015-07-30 10:56:52 +0900'
 tags: ['html', 'css']
+image: img/brandi-redd-aJTiW00qqtI-unsplash.jpg
 draft: false
 ---
 

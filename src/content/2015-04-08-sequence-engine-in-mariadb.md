@@ -3,6 +3,7 @@ layout: post
 title: 'MariaDB 에서 시퀀스엔진 사용하기'
 date: '2015-04-08 16:36:46 +0900'
 tags: ['mariadb', 'sequenceengine', 'sequence', 'engine']
+image: img/brandi-redd-aJTiW00qqtI-unsplash.jpg
 draft: false
 ---
 

@@ -3,6 +3,7 @@ layout: post
 title: 'Windows8 에서 mysql 느려지는 문제'
 date: '2013-04-02 10:39:28 +0900'
 tags: ['windows8', 'mysql', 'slow']
+image: img/brandi-redd-aJTiW00qqtI-unsplash.jpg
 draft: false
 ---
 

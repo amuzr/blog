@@ -3,6 +3,7 @@ layout: post
 title: 'EGit과 JGit의 차이'
 date: '2013-05-02 08:58:33 +0900'
 tags: ['git']
+image: img/brandi-redd-aJTiW00qqtI-unsplash.jpg
 draft: false
 ---
 

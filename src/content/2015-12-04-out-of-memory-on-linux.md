@@ -3,6 +3,7 @@ layout: post
 title: '/etc/messages 에서 out of memory 가 일어나서 프로세스가 종료될 때'
 date: '2015-12-04 16:51:36 +0900'
 tags: ['out_of_memory', 'linux']
+image: img/brandi-redd-aJTiW00qqtI-unsplash.jpg
 draft: false
 ---
 

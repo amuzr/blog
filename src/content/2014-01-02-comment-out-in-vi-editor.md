@@ -3,6 +3,7 @@ layout: post
 title: 'vi 에서 여러줄 주석 처리하기'
 date: '2014-01-02 13:40:09 +0900'
 tags: ['vi', 'comment']
+image: img/brandi-redd-aJTiW00qqtI-unsplash.jpg
 draft: false
 ---
 

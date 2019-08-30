@@ -3,6 +3,7 @@ layout: post
 title: '각 DB 에서 LIMIT 구현하기'
 date: '2016-02-15 15:39:33 +0900'
 tags: ['db', 'limit']
+image: img/brandi-redd-aJTiW00qqtI-unsplash.jpg
 draft: false
 ---
 

@@ -3,6 +3,7 @@ layout: post
 title: 'CentOS 에서 커널 업데이트 할 때 생기는 문제'
 date: '2013-09-02 10:54:04 +0900'
 tags: ['centos', 'kernel_update', 'problem']
+image: img/brandi-redd-aJTiW00qqtI-unsplash.jpg
 draft: false
 ---
 

@@ -3,6 +3,7 @@ layout: post
 title: '자바스크립트 클린코드'
 date: '2019-08-30 16:16:52 +0900'
 tags: ['code', 'javascript', 'react']
+image: img/brandi-redd-aJTiW00qqtI-unsplash.jpg
 draft: true
 ---
 

@@ -3,6 +3,7 @@ layout: post
 title: 'change encoding on centos'
 date: '2013-08-21 15:01:20 +0900'
 tags: ['encoding', 'centos', 'linux']
+image: img/brandi-redd-aJTiW00qqtI-unsplash.jpg
 draft: false
 ---
 

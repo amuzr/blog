@@ -3,6 +3,7 @@ layout: post
 title: 'Redux vs MobX'
 date: '2017-04-04 12:30:26 +0900'
 tags: ['front', 'react', 'redux']
+image: img/brandi-redd-aJTiW00qqtI-unsplash.jpg
 draft: false
 ---
 

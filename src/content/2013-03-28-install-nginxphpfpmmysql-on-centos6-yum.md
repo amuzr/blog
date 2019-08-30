@@ -3,6 +3,7 @@ layout: post
 title: 'CentOS6 에 yum 으로 nginx + php-fpm + mysql 설치하기'
 date: '2013-03-28 14:54:43 +0900'
 tags: ['linux', 'nginx', 'php', 'mysql', 'centos']
+image: img/brandi-redd-aJTiW00qqtI-unsplash.jpg
 draft: false
 ---
 

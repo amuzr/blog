@@ -3,6 +3,7 @@ layout: post
 title: 'PHP 에서 paradox DB 설치하기'
 date: '2013-04-03 18:39:25 +0900'
 tags: ['php', 'paradox', 'db', 'paradoxdb']
+image: img/brandi-redd-aJTiW00qqtI-unsplash.jpg
 draft: false
 ---
 

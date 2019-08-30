@@ -3,6 +3,7 @@ layout: post
 title: '월간 코딩 사이트 만들기'
 date: '2017-07-30 17:36:16 +0900'
 tags: ['code']
+image: img/brandi-redd-aJTiW00qqtI-unsplash.jpg
 draft: false
 ---
 

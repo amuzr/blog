@@ -3,6 +3,7 @@ layout: post
 title: 'PHP 에서 mkdir 같은 커맨드를 사용할 때 권한 문제'
 date: '2014-08-25 11:32:57 +0900'
 tags: ['php', 'mkdir', '권한']
+image: img/brandi-redd-aJTiW00qqtI-unsplash.jpg
 draft: false
 ---
 

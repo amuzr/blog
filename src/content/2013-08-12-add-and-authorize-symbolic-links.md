@@ -3,6 +3,7 @@ layout: post
 title: '심볼릭 링크 생성하고 권한 주기'
 date: '2013-08-12 13:34:58 +0900'
 tags: ['symbolic_link', 'centos', 'linux']
+image: img/brandi-redd-aJTiW00qqtI-unsplash.jpg
 draft: false
 ---
 

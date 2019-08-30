@@ -3,6 +3,7 @@ layout: post
 title: 'yum 을 이용해서 mssql 연결하기'
 date: '2016-02-15 18:52:16 +0900'
 tags: ['yum', 'mssql', 'linux', 'centos', 'freetds', 'isql']
+image: img/brandi-redd-aJTiW00qqtI-unsplash.jpg
 draft: false
 ---
 

@@ -3,6 +3,7 @@ layout: post
 title: 'REDIS 관련 에러'
 date: '2015-10-29 11:19:18 +0900'
 tags: ['redis', 'db', 'linux', 'centos']
+image: img/brandi-redd-aJTiW00qqtI-unsplash.jpg
 draft: false
 ---
 

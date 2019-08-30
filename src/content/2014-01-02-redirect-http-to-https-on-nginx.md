@@ -3,6 +3,7 @@ layout: post
 title: 'Nginx http 에서 https로 리다이렉트 시키기'
 date: '2014-01-02 13:42:30 +0900'
 tags: ['nginx', 'http', 'https', 'redirect']
+image: img/brandi-redd-aJTiW00qqtI-unsplash.jpg
 draft: false
 ---
 

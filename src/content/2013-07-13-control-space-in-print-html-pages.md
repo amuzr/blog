@@ -3,6 +3,7 @@ layout: post
 title: 'HTML페이지 인쇄 시 여백 제어하기'
 date: '2013-07-13 14:47:53 +0900'
 tags: ['html', 'css', 'print']
+image: img/brandi-redd-aJTiW00qqtI-unsplash.jpg
 draft: false
 ---
 
@@ -15,7 +16,7 @@ size 는 IE 에서 안된다. activex 하나하나 없애가자 ~!
 ```css
 @page {
   size: auto;
-  /_auto is the initial value _/
+  /_autoisthe initial value _/
 
     /* this affects the margin in the printer settings */
     margin: 25mm 25mm 25mm 25mm;

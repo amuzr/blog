@@ -3,6 +3,7 @@ layout: post
 title: 'CentOS에 vsftpd(ftp) 설치하기'
 date: '2015-08-19 18:57:48 +0900'
 tags: ['centos', 'vsftpd', 'ftp', 'linux']
+image: img/brandi-redd-aJTiW00qqtI-unsplash.jpg
 draft: false
 ---
 
@@ -52,6 +53,7 @@ ftp 를 이용하여 제한적으로 폴더를 이용할 수 있도록 할 수 �
 ```
 
 - 잘 추가되었는지 확인하려면
+
   ```bash
 
   ```

@@ -3,6 +3,7 @@ layout: post
 title: 'jailkit로 sftp 사용할 때 root 접근 못하게 하기'
 date: '2013-07-18 14:45:04 +0900'
 tags: ['jailkit', 'sftp', 'centos', 'linux']
+image: img/brandi-redd-aJTiW00qqtI-unsplash.jpg
 draft: false
 ---
 
