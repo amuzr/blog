@@ -149,8 +149,8 @@ draft: false
 
   ```javascript
   // 필요없는 함수 호출
-  function(hasName) {
-  const name = getName();
+  function (hasName) {
+    const name = getName();
 
     if (!hasName) {
       return false;
@@ -162,13 +162,13 @@ draft: false
   }
 
   // good
-  function(hasName) {
+  function (hasName) {
     if (!hasName) {
       return false;
     }
 
     const name = getName();
-  this.setFirstName(name);
+    this.setFirstName(name);
 
     return true;
   }

@@ -12,7 +12,7 @@ const navCss = css`
   }
 
   a {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell;
+    font-family: 'Nanum Myeongjo', Roboto, Oxygen, Ubuntu, Cantarell;
     font-size: 0.8rem;
     line-height: 2;
     background: #fff;

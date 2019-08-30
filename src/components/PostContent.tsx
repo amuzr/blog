@@ -10,16 +10,16 @@ export const PostFullContent = styled.section`
   margin: 0 auto;
   padding: 40px 50px;
   min-height: 230px;
-  font-family: Georgia, serif;
-  font-size: 1.9rem;
-  line-height: 1.6em;
+  font-family: 'Nanum Myeongjo', serif;
+  font-size: 1.8rem;
+  line-height: 1.8em;
   background: #fff;
 
   @media (max-width: 1170px) {
     padding: 5vw 7vw 0;
   }
   @media (max-width: 800px) {
-    font-size: 1.9rem;
+    font-size: 1.4rem;
   }
 
   :before {
@@ -72,7 +72,7 @@ export const PostFullContent = styled.section`
   }
 
   li p {
-    margin: 0;
+    margin: 0.2em 0 0.1em 0;
   }
 
   a {
@@ -225,51 +225,51 @@ export const PostFullContent = styled.section`
   h5,
   h6 {
     color: ${setLightness('0.05', colors.darkgrey)};
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
-      'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: 'Nanum Myeongjo', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
+      sans-serif;
   }
 
   h1 {
-    margin: 0.5em 0 0.2em 0;
+    margin: 0.8em 0 0.6em 0;
     font-size: 2.8rem;
     font-weight: 700;
   }
   @media (max-width: 500px) {
     h1 {
-      font-size: 2rem;
+      font-size: 2.2rem;
     }
   }
 
   h2 {
-    margin: 0.5em 0 0.2em 0;
-    font-size: 2.6rem;
+    margin: 0.6em 0 0.4em 0;
+    font-size: 2.4rem;
     font-weight: 700;
   }
   @media (max-width: 500px) {
     h2 {
-      font-size: 1.8rem;
+      font-size: 2rem;
     }
   }
 
   h3 {
     margin: 0.5em 0 0.2em 0;
-    font-size: 2.2rem;
+    font-size: 2rem;
     font-weight: 700;
   }
   @media (max-width: 500px) {
     h3 {
-      font-size: 1.6rem;
+      font-size: 1.8rem;
     }
   }
 
   h4 {
     margin: 0.5em 0 0.2em 0;
-    font-size: 2.2rem;
+    font-size: 1.8rem;
     font-weight: 700;
   }
   @media (max-width: 500px) {
     h4 {
-      font-size: 1.4rem;
+      font-size: 1.6rem;
     }
   }
 
@@ -280,7 +280,7 @@ export const PostFullContent = styled.section`
     border: 0;
     color: ${colors.blue};
     font-family: Georgia, serif;
-    font-size: 2rem;
+    font-size: 1.8rem;
     line-height: 1.35em;
     text-align: center;
   }
@@ -292,7 +292,7 @@ export const PostFullContent = styled.section`
   @media (max-width: 500px) {
     h5 {
       padding: 0 0 0.5em;
-      font-size: 1.4rem;
+      font-size: 1.5rem;
     }
   }
 
@@ -303,7 +303,7 @@ export const PostFullContent = styled.section`
   }
   @media (max-width: 500px) {
     h6 {
-      font-size: 1.5rem;
+      font-size: 1.4rem;
     }
   }
 

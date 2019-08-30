@@ -38,7 +38,7 @@ const HeaderNav = styled.nav`
 
 const HeaderLink = css`
   margin-left: 2.1rem;
-  font-family: 'Avenir', 'Open Sans', sans-serif;
+  font-family: 'Nanum Myeongjo', 'Open Sans', sans-serif;
   font-size: 1.5rem;
   line-height: 1.6;
   padding: 0;

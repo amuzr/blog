@@ -269,8 +269,8 @@ const GlobalStyles = css`
   body {
     overflow-x: hidden;
     color: ${darken('0.25', colors.midgrey)};
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
-      'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: 'Nanum Myeongjo', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
+      sans-serif;
     font-size: 1.5rem;
     line-height: 1.6em;
     font-weight: 400;
@@ -474,16 +474,13 @@ const GlobalStyles = css`
     font-size: 1.1rem;
     font-weight: 500;
   }
-
-  body {
-    background: #f4f8fb;
-  }
 `;
 
 const IndexLayout: React.FC<IndexProps> = props => {
   return (
     <div className={props.className}>
       <Helmet>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nanum+Myeongjo" />
         <link rel="icon" href={favicon} type="image/x-icon" />
       </Helmet>
       <Global styles={GlobalStyles} />
